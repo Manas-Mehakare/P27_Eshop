@@ -1,0 +1,50 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# LoRA models and training checkpoints
+lora_model/
+lora_adapter/
+lora_output/
+checkpoints/
+checkpoint-*/
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Model cache
+.cache/
+huggingface_cache/
+
+# Generated files and logs
+*.log
+logs/
+generated/
+*.mp3
+
+# Testing cache
+.pytest_cache/
+.coverage
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db

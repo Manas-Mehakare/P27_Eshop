@@ -1,0 +1,9 @@
+streamlit>=1.40,<2
+groq>=0.15,<2
+python-dotenv>=1,<2
+sentence-transformers>=3.3,<6
+transformers>=4.48,<5
+peft>=0.14,<1
+torch>=2.4,<3
+Pillow>=10,<13
+gTTS>=2.5,<3
